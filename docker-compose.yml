@@ -1,7 +1,7 @@
 services:
   backend:
     build: ./backend
-    image: tp1docker321/:latest
+    image: tp1docker321/flask-api:latest
     ports:
       - "5000:5000"
     environment:
